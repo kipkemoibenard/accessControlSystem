@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fastName": "John",
+            "lastName": "Nyakudi",
+            "Username": "jonyaundi@gmail.com",
+            "role": "user"
+        },
+        {
+            "id": 2,
+            "fastName": "Robert",
+            "lastName": "Obina",
+            "Username": "robert@gmail.com",
+            "role": "user"
+        },
+        {
+            "id": 3,
+            "fastName": "Kelvin",
+            "lastName": "Wangui",
+            "Username": "kelvinw@gmail.com",
+            "role": "admin"
+        },
+        {
+            "id": 4,
+            "fastName": "Florence",
+            "lastName": "Cherono",
+            "Username": "cherono@gmail.com",
+            "role": "admin"
+        }
+    ]
+}

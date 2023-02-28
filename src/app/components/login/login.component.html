@@ -1,0 +1,39 @@
+
+<!-- <div class="log-form">
+    <h2>Login to your account</h2>
+
+        <form [formGroup]="userLogin" (ngSubmit)="usersLogin">
+            <input type="text" placeholder="Enter username" formControlName="userName">
+            <input type="password" placeholder="enter password" formControlName="password">
+            <button type="submit" (click)="usersLogin()">Login</button>
+
+      <a class="forgot" href="#">Forgot Username?</a>
+    </form>
+  </div>end log form -->
+
+
+  <h2>Login Page</h2><br>
+  <div class="login">
+  <form id="login" method="get" [formGroup]="userLogin" (ngSubmit)="usersLogin">
+      <label><b>User Name
+      </b>
+      </label>
+      <input type="text" name="Uname" id="Uname" placeholder="Username" formControlName="userName">
+      <br><br>
+      <label><b>Password
+      </b>
+      </label>
+      <input type="Password" name="Pass" id="Pass" placeholder="Password" formControlName="password">
+      <br><br>
+      <input type="submit" name="log" id="log" value="Log In Here" (click)="usersLogin()" >
+      <br><br>
+      <input type="checkbox" id="check">
+      <span>Remember me</span>
+      <br><br>
+      Forgot <a href="#">Password</a>
+  </form>
+</div>
+
+  
+
+
